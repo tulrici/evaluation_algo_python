@@ -3,7 +3,7 @@ print("calculette")
 #initialisation et demande premier nombre ou quit
 inputValue = ""
 inputValue2 = ""
-inputValue = input("Entrer un nombre réel ou q pour quitter")
+inputValue = input("Entrer un nombre réel ou q pour quitter ")
 if inputValue == "q":
     exit()
 else:

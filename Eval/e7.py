@@ -13,6 +13,7 @@ while True:
 # reinitilisation
     inputValue1 = ""
     inputValue1Str = str(inputValue1)
+    # la conversion en string ne devrait pas être nécessaire mais je le laisse comme témoignage du travail passé
 
     while inputValue1Str != '+' and inputValue1Str != '-' and inputValue1Str != '*' and inputValue1Str != '/' and inputValue1Str != 'q' :
         # demande opération et test ou quit

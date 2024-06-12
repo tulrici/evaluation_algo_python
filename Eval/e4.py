@@ -14,7 +14,8 @@ print(f"{n} étudiants ont eu la moyenne")
 # Soit un tableau t de 10 notes (réels)
 # Soit n = 0 (entier)
 # Pour i de 0 à 9
-# 	Si t[i] est supérieur ou égal à 10 
+# 	Si t[i] est supérieur ou égal à 10
+#   Fin Si
 # 		Alors nombre n égal n + 1
 # Fin Pour
 

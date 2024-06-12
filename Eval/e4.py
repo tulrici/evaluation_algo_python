@@ -19,5 +19,5 @@ print(f"{n} étudiants ont eu la moyenne")
 # 		Alors nombre n égal n + 1
 # Fin Pour
 
-# afficher t étudiants ont eu la moyenne
+# afficher n étudiants ont eu la moyenne
 # FIN

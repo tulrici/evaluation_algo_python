@@ -19,7 +19,7 @@ print(f"Le minimum est {min}, le maximum est {max}")
 
 # Pour i de 0 à 9
 # 		Si t[i] < min 
-# Alors min = t[i]
+#           Alors min = t[i]
 # 		Sinon Si t[i] > max
 # 			Alors max = t[i]
 # 		Fin Si

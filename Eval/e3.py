@@ -25,8 +25,9 @@ while i <9:
 # Pour i allant de 0 à 9
 # 	Si le reste de t[i] / 2 égal 0
 # 		Alors afficher t[i] est pair
-# 		Sinon afficher t[i] est impair
-# fin Pour
+# 	Sinon afficher t[i] est impair
+#   Fin Si
+# Fin Pour
 # FIN
 
 
@@ -38,6 +39,7 @@ while i <9:
 # 	Si le reste de t[i] / 2 égal 0
 # 		Alors afficher t[i] est pair
 # 		Sinon afficher t[i] est impair
+#       Fin Si
 # 	i = i + 1
-# fin Tant que
+# Fin Tant que
 # FIN

@@ -14,8 +14,8 @@ while True:
     inputValue1 = ""
     inputValue1Str = str(inputValue1)
 
-    while inputValue1Str != '+' and inputValue1Str != '-' and inputValue1Str != '*' and inputValue1Str != '/' and 'q' :
-# demande opération et test ou quit
+    while inputValue1Str != '+' and inputValue1Str != '-' and inputValue1Str != '*' and inputValue1Str != '/' and inputValue1Str != 'q' :
+        # demande opération et test ou quit
         inputValue1 = str(input("Entrer une opération ( + , - , * , / ) ou q pour quitter "))
         inputValue1Str = str(inputValue1)
 
@@ -25,7 +25,7 @@ while True:
         op = inputValue1
 
     while True:
-# demande deuxieme nombre ou quit
+        # demande deuxieme nombre ou quit
         inputValue2 = input("Entrer un nombre réel ou q pour quitter ")
         if inputValue2 == "q":
             exit()
@@ -40,7 +40,7 @@ while True:
             result = value1 * value2
         elif op == "/":
             if value2 == 0:
-# test division par 0
+                # test division par 0
                 print("Vous allez en prison des maths parce qu'on divise pas par zéro quand est civilisé ")
                 continue
             else:

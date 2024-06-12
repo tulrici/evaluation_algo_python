@@ -23,4 +23,5 @@ else:
 # Sinon Si p < 50
 # 	Alors afficher candidat qualifié pour le second tour
 # Sinon afficher candidat élu
+# Fin Si
 # FIN

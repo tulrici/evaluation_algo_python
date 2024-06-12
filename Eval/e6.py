@@ -26,6 +26,6 @@ else:
 # Si c = 0
 # 	Alors afficher n n’est pas dans présent dans le tableau t
 # Sinon
-# 	Afficher n est présent {c} fois dans le tableau t
+# 	Afficher n est présent c fois dans le tableau t
 # Fin Si
 # FIN
